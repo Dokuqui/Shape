@@ -1,6 +1,6 @@
 import asyncio
 from app.database import engine, Base
-from app.models import event
+from app.models import event, gallery, user
 
 async def init_models():
     async with engine.begin() as conn:

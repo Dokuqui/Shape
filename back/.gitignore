@@ -4,3 +4,5 @@ venv/
 app/__pycache__
 app/models/__pycache__
 app/router/__pycache__
+app/schemas/__pycache__
+app/crud/__pycache__
